@@ -88,9 +88,9 @@ const blackWidow ={
 //     ```javascript
 //     console.log(blackWidow.aliases.realName)
 //     ```
-    console.log(blackWidow.regularName);
+    // console.log(blackWidow.regularName);
 // 1. The following code logs `Natalie Rushman` 
-    // console.log(blackWidow.aliases[1]);
+    console.log(blackWidow.aliases[1]);
 //      ```javascript
 //     console.log(blackWidow.aliases.otherNotableAliases[1])
 //     ```
