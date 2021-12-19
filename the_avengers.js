@@ -46,46 +46,51 @@
 
 // Create an object for `captainAmerica` such that...
 
-const captainAmerica = {
-    aliases: 'Captain America',
-    abilities: ['Slowed Aging', 'Accelerated Healing', 'Peak Human Strengh'],
-    phrases: ('i can do this all day')
+// const captainAmerica = {
+//     aliases: 'Captain America',
+//     abilities: ['Slowed Aging', 'Accelerated Healing', 'Peak Human Strengh'],
+//     phrases: ('i can do this all day')
 
-}
+// }
 // console.log(captainAmerica.aliases)
 // console.log(captainAmerica.abilities[2]);
-console.log(captainAmerica.phrases);
+// console.log(captainAmerica.phrases);
 
 // 1. The following code logs `Captain America`
 
-
+// console.log(captainAmerica.aliases)
 
 //     ```javascript
 //     console.log(captainAmerica.aliases.superheroName)
 //     ```
 
 // 1. The following  code logs `peak human strength`
-
+// console.log(captainAmerica.abilities[2]);
 //     ```javascript
 //     console.log(captainAmerica.abilities[2])
 //     ```
 
 // 1. The following code logs `i can do this all day`
-
+// console.log(captainAmerica.phrases);
 //     ```javascript
 //     console.log(captainAmerica.sayPhrase()
 //     ```
 
 // Create a data structure for `blackWidow` such that... 
-
+const blackWidow ={
+    regularName: 'Natalia Alianovna Romanova',
+    aliases: ['Nat', 'Natalie Rushman'],
+}
+    // console.log(blackWidow.regularName);
+    // console.log(blackWidow.aliases[1]);
 // 1. The following code logs `Natalia Alianovna Romanova` 
     
 //     ```javascript
 //     console.log(blackWidow.aliases.realName)
 //     ```
-    
+    console.log(blackWidow.regularName);
 // 1. The following code logs `Natalie Rushman` 
-    
+    // console.log(blackWidow.aliases[1]);
 //      ```javascript
 //     console.log(blackWidow.aliases.otherNotableAliases[1])
 //     ```
