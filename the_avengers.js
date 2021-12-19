@@ -47,13 +47,13 @@
 // Create an object for `captainAmerica` such that...
 
 const captainAmerica = {
-    aliases: 'Steve Rogers',
+    aliases: 'Captain America',
     abilities: ['Slowed Aging', 'Accelerated Healing', 'Peak Human Strengh'],
     phrases: ('i can do this all day')
 
 }
-console.log(captainAmerica.aliases)
-// console.log(captainAmerica.abilities[2]);
+// console.log(captainAmerica.aliases)
+console.log(captainAmerica.abilities[2]);
 // console.log(captainAmerica.phrases);
 
 // 1. The following code logs `Captain America`
