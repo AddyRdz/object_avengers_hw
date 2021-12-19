@@ -53,8 +53,8 @@ const captainAmerica = {
 
 }
 // console.log(captainAmerica.aliases)
-console.log(captainAmerica.abilities[2]);
-// console.log(captainAmerica.phrases);
+// console.log(captainAmerica.abilities[2]);
+console.log(captainAmerica.phrases);
 
 // 1. The following code logs `Captain America`
 
