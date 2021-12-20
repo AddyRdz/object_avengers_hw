@@ -1,31 +1,31 @@
-// const ironMan = {
-//     regularName: 'Anthony Edward "Tony" Stark',
-//     abilities: ['genius-level intellect', 'proficient scientist and engineer', 'powered armor suit'],
-//     marvelMovieAppearances: {
-//         ironMan: true,
-//         theHulk: true,
-//         ironManTwo: true,
-//         thor: false,
-//         captainAmerica: false,
-//         theAvengers: true,
-//         ironManThree: true,
-//         thorTwo: false,
-//         captainAmericaTwo: false,
-//         guardiansOfTheGalaxy: false,
-//         avengersTwo: true,
-//         antMan: false,
-//         captainAmericaThree: true,
-//         doctorStrange: false,
-//         guardiansOfTheGalaxyTwo: false,
-//         spiderManHomecoming: false,
-//         thorThree: false,
-//         blackPanther: false,
-//         avengersThree: true
-//     },
-//     jarvisAreYouThere: () => {
-//        console.log('At your service, sir')
-//     }
-// }
+const ironMan = {
+    regularName: 'Anthony Edward "Tony" Stark',
+    abilities: ['genius-level intellect', 'proficient scientist and engineer', 'powered armor suit'],
+    marvelMovieAppearances: {
+        ironMan: true,
+        theHulk: true,
+        ironManTwo: true,
+        thor: false,
+        captainAmerica: false,
+        theAvengers: true,
+        ironManThree: true,
+        thorTwo: false,
+        captainAmericaTwo: false,
+        guardiansOfTheGalaxy: false,
+        avengersTwo: true,
+        antMan: false,
+        captainAmericaThree: true,
+        doctorStrange: false,
+        guardiansOfTheGalaxyTwo: false,
+        spiderManHomecoming: false,
+        thorThree: false,
+        blackPanther: false,
+        avengersThree: true
+    },
+    jarvisAreYouThere: () => {
+       console.log('At your service, sir')
+    }
+}
 
 // // 1. Log Iron Man's third ability
 // console.log(ironMan.abilities[2]);
@@ -40,7 +40,7 @@
 
 // 1. Wait, that's not right -- he did appear in that movie! Change the value to true without editing the object itself and log it again to verify it changed
 // 1. Check if jarvis is there by calling on the `jarvisAreYouThere` function
- 
+ console.log(ironMan.jarvisAreYouThere);
 
 // ## Assembling other Avengers 
 
@@ -77,10 +77,10 @@
 //     ```
 
 // Create a data structure for `blackWidow` such that... 
-const blackWidow ={
-    regularName: 'Natalia Alianovna Romanova',
-    aliases: ['Nat', 'Natalie Rushman'],
-}
+// const blackWidow ={
+//     regularName: 'Natalia Alianovna Romanova',
+//     aliases: ['Nat', 'Natalie Rushman'],
+// }
     // console.log(blackWidow.regularName);
     // console.log(blackWidow.aliases[1]);
 // 1. The following code logs `Natalia Alianovna Romanova` 
@@ -90,7 +90,7 @@ const blackWidow ={
 //     ```
     // console.log(blackWidow.regularName);
 // 1. The following code logs `Natalie Rushman` 
-    console.log(blackWidow.aliases[1]);
+    // console.log(blackWidow.aliases[1]);
 //      ```javascript
 //     console.log(blackWidow.aliases.otherNotableAliases[1])
 //     ```
