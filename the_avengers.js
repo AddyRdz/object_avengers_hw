@@ -36,13 +36,13 @@
 // }
 
 // 1. Log whether or not Iron Man appeared in `spiderManHomecoming`
-const marvelMovieAppearances = ['ironMan','theHulk','ironManTwo','thor','captainAmerica','theAvengers','ironManThree','thorTwo','captainAmericaTwo','guardiansOfTheGalaxy','avengersTwo','antMan','captainAmericaThree','doctorStrange','guardiansOfTheGalaxyTwo','spiderManHomecoming','thorThree','blackPanther','avengersThree' ];
-const found = marvelMovieAppearances.find(ironMan => 'spiderManHomecoming' > false)
-console.log(found)
+// const marvelMovieAppearances = ['ironMan','theHulk','ironManTwo','thor','captainAmerica','theAvengers','ironManThree','thorTwo','captainAmericaTwo','guardiansOfTheGalaxy','avengersTwo','antMan','captainAmericaThree','doctorStrange','guardiansOfTheGalaxyTwo','spiderManHomecoming','thorThree','blackPanther','avengersThree' ];
+// const found = marvelMovieAppearances.find(ironMan => 'spiderManHomecoming' > false)
+// console.log(found)
 
 // 1. Wait, that's not right -- he did appear in that movie! Change the value to true without editing the object itself and log it again to verify it changed
 // 1. Check if jarvis is there by calling on the `jarvisAreYouThere` function
-//  console.log(ironMan.jarvisAreYouThere);
+ console.log(ironMan.jarvisAreYouThere());
 
 // ## Assembling other Avengers 
 
@@ -147,13 +147,15 @@ console.log(found)
 //   },
 //   mandolin: ["eastman", "weber", "collings"]
 // }
+//     console.log(instruments.electric[0]);
 // ```
-
+ 
 // Given the above object...
 
 // 1.  Log all of the following: 
 
 //     - `telecaster`
+   
 //     - `santa cruz`
 //     - `washburn`
 //     - `weber`
