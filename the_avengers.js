@@ -42,7 +42,7 @@
 
 // 1. Wait, that's not right -- he did appear in that movie! Change the value to true without editing the object itself and log it again to verify it changed
 // 1. Check if jarvis is there by calling on the `jarvisAreYouThere` function
- console.log(ironMan.jarvisAreYouThere());
+//  console.log(ironMan.jarvisAreYouThere());
 
 // ## Assembling other Avengers 
 
@@ -138,29 +138,30 @@
 // Switching gears, let's look at some instrument data! 
 
 // ```javascript 
-// const instruments = {
-//   banjo: ["1920 gibson", "deering", "washburn"],
-//   guitar: {
-//     acoustic: ["martin", "taylor", "santa cruz", "gibson"],
-//     electric: ["fender Strat", "telecaster", "PRS", "languedoc"],
-//     nylon: ["baldwin", "cordoba"]
-//   },
-//   mandolin: ["eastman", "weber", "collings"]
-// }
-//     console.log(instruments.electric[0]);
+const instruments = {
+  banjo: ["1920 gibson", "deering", "washburn"],
+  guitar: {
+    acoustic: ["martin", "taylor", "santa cruz", "gibson"],
+    electric: ["fender Strat", "telecaster", "PRS", "languedoc"],
+    nylon: ["baldwin", "cordoba"]
+  },
+  mandolin: ["eastman", "weber", "collings"]
+}
 // ```
  
-// Given the above object...
+// // Given the above object...
 
-// 1.  Log all of the following: 
+// // 1.  Log all of the following: 
 
-//     - `telecaster`
-   
-//     - `santa cruz`
-//     - `washburn`
-//     - `weber`
-
-// 1. Loop through all the _electric_ guitars and log them
+// //     - `telecaster`
+   console.log(instruments.guitar.electric[1]);
+// //     - `santa cruz`
+    console.log(instruments.guitar.acoustic[2]);
+// //     - `washburn`
+    console.log(instruments.banjo[2]);
+// //     - `weber`
+    console.log(instruments.mandolin[1]);
+// // 1. Loop through all the _electric_ guitars and log them
 
 // 1. Add a `vocals` property to the object that includes a list of your favorite singers 
 
