@@ -1,31 +1,31 @@
-const ironMan = {
-    regularName: 'Anthony Edward "Tony" Stark',
-    abilities: ['genius-level intellect', 'proficient scientist and engineer', 'powered armor suit'],
-    marvelMovieAppearances: {
-        ironMan: true,
-        theHulk: true,
-        ironManTwo: true,
-        thor: false,
-        captainAmerica: false,
-        theAvengers: true,
-        ironManThree: true,
-        thorTwo: false,
-        captainAmericaTwo: false,
-        guardiansOfTheGalaxy: false,
-        avengersTwo: true,
-        antMan: false,
-        captainAmericaThree: true,
-        doctorStrange: false,
-        guardiansOfTheGalaxyTwo: false,
-        spiderManHomecoming: false,
-        thorThree: false,
-        blackPanther: false,
-        avengersThree: true
-    },
-    jarvisAreYouThere: () => {
-       console.log('At your service, sir')
-    }
-}
+// const ironMan = {
+//     regularName: 'Anthony Edward "Tony" Stark',
+//     abilities: ['genius-level intellect', 'proficient scientist and engineer', 'powered armor suit'],
+//     marvelMovieAppearances: {
+//         ironMan: true,
+//         theHulk: true,
+//         ironManTwo: true,
+//         thor: false,
+//         captainAmerica: false,
+//         theAvengers: true,
+//         ironManThree: true,
+//         thorTwo: false,
+//         captainAmericaTwo: false,
+//         guardiansOfTheGalaxy: false,
+//         avengersTwo: true,
+//         antMan: false,
+//         captainAmericaThree: true,
+//         doctorStrange: false,
+//         guardiansOfTheGalaxyTwo: false,
+//         spiderManHomecoming: false,
+//         thorThree: false,
+//         blackPanther: false,
+//         avengersThree: true
+//     },
+//     jarvisAreYouThere: () => {
+//        console.log('At your service, sir')
+//     }
+// }
 
 // // 1. Log Iron Man's third ability
 // console.log(ironMan.abilities[2]);
@@ -36,11 +36,13 @@ const ironMan = {
 // }
 
 // 1. Log whether or not Iron Man appeared in `spiderManHomecoming`
-
+const marvelMovieAppearances = ['ironMan','theHulk','ironManTwo','thor','captainAmerica','theAvengers','ironManThree','thorTwo','captainAmericaTwo','guardiansOfTheGalaxy','avengersTwo','antMan','captainAmericaThree','doctorStrange','guardiansOfTheGalaxyTwo','spiderManHomecoming','thorThree','blackPanther','avengersThree' ];
+const found = marvelMovieAppearances.find(ironMan => 'spiderManHomecoming' > false)
+console.log(found)
 
 // 1. Wait, that's not right -- he did appear in that movie! Change the value to true without editing the object itself and log it again to verify it changed
 // 1. Check if jarvis is there by calling on the `jarvisAreYouThere` function
- console.log(ironMan.jarvisAreYouThere);
+//  console.log(ironMan.jarvisAreYouThere);
 
 // ## Assembling other Avengers 
 
@@ -108,8 +110,10 @@ const ironMan = {
 //   { name: 'Natasha Romanoff', superheroName: 'Black Widow' },
 //   { name: 'Clint Barton', superheroName: 'Hawkeye' }
 // ]
-// ```
-
+// // ```
+// for(let i = 0; i < theAvengers; i++){
+//     console.log(theAvengers[i]);
+// }
 // ## MCU Movies 
 
 // Given the following array of arrays, use two loops to loop over each inner array and list all the mcu movies.
