@@ -103,17 +103,17 @@
 
 // ```javascript
 // const theAvengers = [
-//   { name: 'Tony Stark', superheroName: 'Iron Man'},
-//   { name: 'Steve Rogers', superheroName: 'Captain America' },
-//   { name: 'Bruce Banner', superheroName: 'The Hulk'},
-//   { name: 'Thor' },
-//   { name: 'Natasha Romanoff', superheroName: 'Black Widow' },
-//   { name: 'Clint Barton', superheroName: 'Hawkeye' }
-// ]
+//     { name: 'Tony Stark', superheroName: 'Iron Man'},
+//     { name: 'Steve Rogers', superheroName: 'Captain America' },
+//     { name: 'Bruce Banner', superheroName: 'The Hulk'},
+//     { name: 'Thor' },
+//     { name: 'Natasha Romanoff', superheroName: 'Black Widow' },
+//     { name: 'Clint Barton', superheroName: 'Hawkeye' }
+//   ]
 // // ```
-// for(let i = 0; i < theAvengers; i++){
-//     console.log(theAvengers[i]);
-// }
+//   for(let i = 0; i < theAvengers; i++){
+//       console.log(theAvengers[i]);
+//   }
 // ## MCU Movies 
 
 // Given the following array of arrays, use two loops to loop over each inner array and list all the mcu movies.
@@ -147,22 +147,24 @@ const instruments = {
   },
   mandolin: ["eastman", "weber", "collings"]
 }
-// ```
- 
+
 // // Given the above object...
 
 // // 1.  Log all of the following: 
 
-// //     - `telecaster`
-   console.log(instruments.guitar.electric[1]);
-// //     - `santa cruz`
-    console.log(instruments.guitar.acoustic[2]);
+//     - `telecaster`
+//    console.log(instruments.guitar.electric[1]);
+//  //     - `santa cruz`
+//     console.log(instruments.guitar.acoustic[2]);
 // //     - `washburn`
-    console.log(instruments.banjo[2]);
+//     console.log(instruments.banjo[2]);
 // //     - `weber`
-    console.log(instruments.mandolin[1]);
-// // 1. Loop through all the _electric_ guitars and log them
+//     console.log(instruments.mandolin[1]);
+// 1. Loop through all the _electric_ guitars and log them
 
+for(let i = 0; i < instruments.guitar.electric.length; i++){
+    console.log(instruments.guitar.electric[i]);
+}
 // 1. Add a `vocals` property to the object that includes a list of your favorite singers 
 
 // ## Hungry For More? - Garmonbozia 
