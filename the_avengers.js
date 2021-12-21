@@ -102,51 +102,56 @@
 // Given the following array, loop through it and log just their name. 
 
 // ```javascript
-// const theAvengers = [
-//     { name: 'Tony Stark', superheroName: 'Iron Man'},
-//     { name: 'Steve Rogers', superheroName: 'Captain America' },
-//     { name: 'Bruce Banner', superheroName: 'The Hulk'},
-//     { name: 'Thor' },
-//     { name: 'Natasha Romanoff', superheroName: 'Black Widow' },
-//     { name: 'Clint Barton', superheroName: 'Hawkeye' }
-//   ]
-// // ```
-//   for(let i = 0; i < theAvengers; i++){
-//       console.log(theAvengers[i]);
-//   }
+const theAvengers = [
+    { name: 'Tony Stark', superheroName: 'Iron Man'},
+    { name: 'Steve Rogers', superheroName: 'Captain America' },
+    { name: 'Bruce Banner', superheroName: 'The Hulk'},
+    { name: 'Thor' },
+    { name: 'Natasha Romanoff', superheroName: 'Black Widow' },
+    { name: 'Clint Barton', superheroName: 'Hawkeye' }
+  ]
+// ```
+  for(let i = 0; i < theAvengers.length; i++){
+      console.log(theAvengers[i].name);
+  }
 // ## MCU Movies 
 
 // Given the following array of arrays, use two loops to loop over each inner array and list all the mcu movies.
 
 // ```javascript
-// const mcuMovies = [
-//   ['ant-man', 'ant-man and the wasp'],
-//   ['the avengers', 'avengers: age of ultron', 'avengers: infinity war', 'avengers: end game'],
-//   ['black panther'],
-//   ['captain america: the first avenger', 'captain america: the winter soldier', 'captain america: civil war'],
-//   ['doctor strange'],
-//   ['guardians of the galaxy', 'guardians of the galaxy vol.2'],
-//   ['the hulk'],
-//   ['iron man', 'iron man 2', 'iron man 3'],
-//   ['spiderman: homecoming'],
-//   ['thor', 'thor: the dark world', 'thor: ragnarok']
-// ]
-// ```
+const mcuMovies = [
+  ['ant-man', 'ant-man and the wasp'],
+  ['the avengers', 'avengers: age of ultron', 'avengers: infinity war', 'avengers: end game'],
+  ['black panther'],
+  ['captain america: the first avenger', 'captain america: the winter soldier', 'captain america: civil war'],
+  ['doctor strange'],
+  ['guardians of the galaxy', 'guardians of the galaxy vol.2'],
+  ['the hulk'],
+  ['iron man', 'iron man 2', 'iron man 3'],
+  ['spiderman: homecoming'],
+  ['thor', 'thor: the dark world', 'thor: ragnarok']
+]
+for(let i = 0; i<mcuMovies.length; i++){
+    for(let j =0; j<mcuMovies[i].length; j++){
+      console.log(mcuMovies[i][j]);  
+    }
+    
+}
 
 // ## Other Objects - Instruments 
 
 // Switching gears, let's look at some instrument data! 
 
 // ```javascript 
-const instruments = {
-  banjo: ["1920 gibson", "deering", "washburn"],
-  guitar: {
-    acoustic: ["martin", "taylor", "santa cruz", "gibson"],
-    electric: ["fender Strat", "telecaster", "PRS", "languedoc"],
-    nylon: ["baldwin", "cordoba"]
-  },
-  mandolin: ["eastman", "weber", "collings"]
-}
+// const instruments = {
+//   banjo: ["1920 gibson", "deering", "washburn"],
+//   guitar: {
+//     acoustic: ["martin", "taylor", "santa cruz", "gibson"],
+//     electric: ["fender Strat", "telecaster", "PRS", "languedoc"],
+//     nylon: ["baldwin", "cordoba"]
+//   },
+//   mandolin: ["eastman", "weber", "collings"]
+// }
 
 // // Given the above object...
 
@@ -162,9 +167,10 @@ const instruments = {
 //     console.log(instruments.mandolin[1]);
 // 1. Loop through all the _electric_ guitars and log them
 
-for(let i = 0; i < instruments.guitar.electric.length; i++){
-    console.log(instruments.guitar.electric[i]);
-}
+// for(let i = 0; i < instruments.guitar.electric.length; i++){
+//     console.log(instruments.guitar.electric[i]);
+// }
+
 // 1. Add a `vocals` property to the object that includes a list of your favorite singers 
 
 // ## Hungry For More? - Garmonbozia 
